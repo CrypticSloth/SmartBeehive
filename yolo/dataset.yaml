@@ -7,4 +7,4 @@ test: # test images (optional)
 # Classes (80 COCO classes)
 names:
     0: bee
-   1: pollen
+    # 1: pollen
