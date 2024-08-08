@@ -27,3 +27,4 @@ for result in results:
     # result.show()  # display to screen
     result.save(filename=os.path.join(run_base_path, 'img_results', f"{os.path.basename(img_paths[i])}"))  # save to disk
     i += 1
+    
