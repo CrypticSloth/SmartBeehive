@@ -1,0 +1,1 @@
+# This will connect the pi to the scale sensors to read the beehive weight
