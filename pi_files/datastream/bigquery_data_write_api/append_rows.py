@@ -61,7 +61,7 @@ def create_stream_manager(project_id, dataset_id, table_id, write_client):
 
 
 def send_rows_to_bq(project_id, dataset_id, table_id, write_client, rows):
-
+    # TODO: Implement retry strategy if the API call fails
     append_rows_stream = create_stream_manager(project_id, dataset_id, table_id, write_client)
 
     response_futures = []
