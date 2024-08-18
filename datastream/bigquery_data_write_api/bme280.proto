@@ -1,7 +1,7 @@
 syntax = "proto2";
     
 message BME280 {
-  required int64 timestamp = 1;
+  required int64 timestamp = 1; //proto doesn't support bigquery timestamp type. Use int64 for microseconds after epoch. Can convert into timestamp later
   required string beehiveid = 2;
   required string sensorid = 3;
   optional float temperature_f = 4;
