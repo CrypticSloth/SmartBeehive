@@ -1,0 +1,10 @@
+syntax = "proto2";
+    
+message BME280 {
+  required int64 timestamp = 1;
+  required string beehiveid = 2;
+  required string sensorid = 3;
+  optional float temperature_f = 4;
+  optional float humidity_prcnt = 5;
+  optional float barometricpressure_hpa = 6;
+}
